@@ -1,5 +1,5 @@
 public class number_swap{
-public static void main(String[] args){
+public static void main(prac[] args){
 int x = 12;
 int y= 23;
 int v;

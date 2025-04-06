@@ -1,7 +1,7 @@
 //x^2 -4x +3=0
 import javax.swing.JOptionPane;
 public class equation{
-public static void main(String[] args){
+public static void main(prac[] args){
 System.out.print("this will be GUI based and will slove your polynomial equation");
 double a = Double.parseDouble(JOptionPane.showInputDialog("enter the coffient of x^2"));
 double b = Double.parseDouble(JOptionPane.showInputDialog("enter the coffient of x"));

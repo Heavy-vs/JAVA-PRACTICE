@@ -1,5 +1,5 @@
 public class hackerrank {
-    public static void main(String[] args) {
+    public static void main(prac[] args) {
         int[] numbers = {10, 20, 30, 40, 50};
         int sum = 0;
 

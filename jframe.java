@@ -1,7 +1,7 @@
 import javax.swing.JFrame;
 
 public class jframe {
-    public static void main(String[] args)
+    public static void main(prac[] args)
     {
         JFrame frame = new JFrame();
         frame.setSize(200,200);

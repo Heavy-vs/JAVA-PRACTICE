@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ss {
-    public static void main(String[] args) {
+    public static void main(prac[] args) {
         Scanner scanner =new Scanner(System.in);
         int x ;
         System.out.println("enter the number ");

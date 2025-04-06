@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class usre_input{
-public static void main(String[] args){
+public static void main(prac[] args){
 Scanner scanner = new Scanner(System.in);
 System.out.println("hi this is a calculater !!(but we will only add )");
 System.out.println("please enter your first number  ");

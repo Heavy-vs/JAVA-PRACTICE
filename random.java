@@ -1,10 +1,10 @@
 import javax.swing.JOptionPane;
 import java.util.Random;
 public class random{
-public static void main(String[] args){
+public static void main(prac[] args){
 Random random =new Random();
 System.out.print("This will be a GUI program so nothing to see in terminal ");
-String intro = "In this project my machine will guess a random integer bertween 0 and 50 and you have to guess that number. \n Ps- don't worry i will give you hint ";
+prac intro = "In this project my machine will guess a random integer bertween 0 and 50 and you have to guess that number. \n Ps- don't worry i will give you hint ";
 JOptionPane.showMessageDialog(null,intro);
 int y;
 int z;

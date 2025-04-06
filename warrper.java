@@ -2,14 +2,14 @@ import java.util.ArrayList;
 import java.util.*;
 
 public class warrper {
-    public static void main(String[] args){
+    public static void main(prac[] args){
         // Character b = 'u';
         // if(b=='u'){
         //     System.out.println("this is true");
         // }
         //ArrayList 
         //Array print 
-       ArrayList<String> food = new ArrayList<String>();
+       ArrayList<prac> food = new ArrayList<prac>();
     //     food.add("adad");
     //     food.add("erer");
     //     food.add("qwer");
@@ -22,18 +22,18 @@ public class warrper {
 //   for (int i=0; i<food.size(); i++){
     //         System.out.println(food.get(i));
     //     }
-        ArrayList<ArrayList<String>> mainist= new ArrayList<>();
-        ArrayList<String> alist = new ArrayList<String>();
+        ArrayList<ArrayList<prac>> mainist= new ArrayList<>();
+        ArrayList<prac> alist = new ArrayList<prac>();
         alist.add("we");
         alist.add("ty");
         alist.add("ad");
                         
-        ArrayList<String> blist = new ArrayList<String>();
+        ArrayList<prac> blist = new ArrayList<prac>();
         blist.add("wop");
         blist.add("ikm");
         blist.add("uhb");
 
-        ArrayList<String> clist = new ArrayList<String>();
+        ArrayList<prac> clist = new ArrayList<prac>();
         clist.add("cvbn");
         clist.add("dfgd");
         clist.add("bvnm");
