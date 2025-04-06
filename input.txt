@@ -1,0 +1,46 @@
+**File I/O (Input/Output)** = Reading from or writing to files using Java code.
+
+Useful when you want to:
+
+- Read data from a file (e.g., logs, configs, CSV)
+    
+- Save data to a file (e.g., writing reports, logs)
+    
+- Modify or create files programmatically
+    
+
+---
+
+### ⚙️ Common Classes You’ll Use:
+
+| Purpose       | Class            | Description                          |
+| ------------- | ---------------- | ------------------------------------ |
+| Reading Files | `FileReader`     | Reads character-by-character         |
+|               | `BufferedReader` | Reads line-by-line (faster, better)  |
+| Writing Files | `FileWriter`     | Writes character-by-character        |
+|               | `BufferedWriter` | Writes efficiently with a buffer     |
+| File Handling | `File`           | Check if file exists, create, delete |
+### reading file
+import java.io.*;
+
+public class FileReadExample {
+    public static void main(String[] args) {
+        try {
+            // 1. File path
+            FileReader fr = new FileReader("sample.txt");
+            BufferedReader br = new BufferedReader(fr);
+
+            // 2. Read line by line
+            String line;
+            while ((line = br.readLine()) != null) {
+                System.out.println(line);
+            }
+
+            // 3. Close the readers
+            br.close();
+            fr.close();
+        } catch (IOException e) {
+            System.out.println("Error reading file: " + e.getMessage());
+        }
+    }
+}

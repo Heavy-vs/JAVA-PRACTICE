@@ -1,5 +1,5 @@
 public class expection {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedExceptioncd {
         // int [] x = {1,2,3,4,5,6};
         // try{
         //     System.out.println(x[9]);
